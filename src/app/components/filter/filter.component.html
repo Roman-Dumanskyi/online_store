@@ -1,0 +1,4 @@
+<p-card header="Filters">
+  <p-dropdown [options]="categories" [(ngModel)]="selectedCategory" optionLabel="name" [showClear]="true"
+              placeholder="Select category" (onChange)="selectCategory()"></p-dropdown>
+</p-card>
